@@ -1,0 +1,7 @@
+shipment_id,country,mode,weight_kg,ship_date
+1001,India,Air,120,2026-11-01
+1002,USA,Sea,5400,2026-11-02
+1003,India,Sea,3200,2026-11-03
+1004,UAE,Air,85,2026-11-04
+1005,USA,Air,240,2026-11-05
+1006,UK,Sea,4100,2026-11-06

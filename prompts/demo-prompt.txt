@@ -1,0 +1,11 @@
+Make my CSV data queryable in Athena, using us-east-1.
+
+- Data: s3://<your-bucket>/agent-lab/shipments/ (file shipments.csv)
+- Create a Glue database named agent_lab_db
+- Create a Glue crawler named agent-lab-shipments-crawler that uses the
+  existing IAM role AgentLabGlueCrawlerRole and crawls only that
+  shipments/ folder. Run it once.
+- Athena query results go to s3://<athena-results-bucket>/
+- Then run a query showing total shipments and total weight per country.
+
+Explain each step before running it. Don't create any IAM roles or policies.

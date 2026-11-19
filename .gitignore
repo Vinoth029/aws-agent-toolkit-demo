@@ -1,0 +1,6 @@
+# Never commit AWS credentials or SSO caches
+.aws/
+*.pem
+.env
+awscliv2.zip
+aws/
